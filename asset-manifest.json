@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/shreecom/portfolio.git/static/css/main.f2572373.css",
-    "main.js": "/shreecom/portfolio.git/static/js/main.06d5ed65.js",
-    "static/js/453.1407b060.chunk.js": "/shreecom/portfolio.git/static/js/453.1407b060.chunk.js",
-    "static/media/three.jpg": "/shreecom/portfolio.git/static/media/three.8cbc41169d3a88e19a32.jpg",
-    "index.html": "/shreecom/portfolio.git/index.html",
-    "main.f2572373.css.map": "/shreecom/portfolio.git/static/css/main.f2572373.css.map",
-    "main.06d5ed65.js.map": "/shreecom/portfolio.git/static/js/main.06d5ed65.js.map",
-    "453.1407b060.chunk.js.map": "/shreecom/portfolio.git/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.f2572373.css",
+    "main.js": "/portfolio/static/js/main.0a820b3b.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/three.jpg": "/portfolio/static/media/three.8cbc41169d3a88e19a32.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.f2572373.css.map": "/portfolio/static/css/main.f2572373.css.map",
+    "main.0a820b3b.js.map": "/portfolio/static/js/main.0a820b3b.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2572373.css",
-    "static/js/main.06d5ed65.js"
+    "static/js/main.0a820b3b.js"
   ]
 }
