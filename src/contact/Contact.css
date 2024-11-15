@@ -1,0 +1,26 @@
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.container{
+    color: white;
+}
+.contact-icon .item{
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:pink;
+    color: black;
+    border-radius: 100px;
+}
+.contact-icon .item:hover{
+    background-color:rgb(142, 238, 238);
+}
+.contact-icon .item .icons{
+    font-size: 2rem;
+}

@@ -1,0 +1,17 @@
+.container1{
+    background-color:white;
+    text-align: center;
+    padding: 30px;
+}
+.container1 h1{
+    margin: 30px;
+    color: rgb(146, 6, 104);
+}
+.container2 .card{
+    width: 300px;
+    margin: auto;
+    box-shadow: rgba(110, 61, 5, 0.35) 10px 15px 15px;
+}
+.container2 .card img{
+    height: 200px;
+}

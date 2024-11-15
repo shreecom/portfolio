@@ -1,0 +1,20 @@
+.header-con{
+    background-color:black;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-con .nav ul{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.header-con .nav ul li{
+    list-style-type: none;
+    color:aqua;
+    border-bottom: 1px solid teal;
+    padding: 10px;
+}
+.header-con .nav ul li:hover{
+    color: seashell;
+    cursor: pointer;
+}

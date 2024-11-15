@@ -1,0 +1,6 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background:url("https://wallpapercave.com/wp/wp5057641.jpg");
+}

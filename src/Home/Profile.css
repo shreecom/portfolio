@@ -1,0 +1,133 @@
+    .profile-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    
+}
+.profile-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.profile-detail-name{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.profile-detail-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+.profile-detail-role h1{
+    font-size: 40px;
+    font-family: cursive;
+}
+.primary-text{
+    color: white;
+}
+.highlighed-text{
+    color: orange;
+}
+.profile-role-tagline{
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile-option .highlighted-btn{
+    margin: 0 0 0 28px;
+}
+.profile-option .highlighted-btn:hover{
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: black;
+}
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px white;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+.profile-picture-background{
+    height: 90%;
+    width: 90%;
+    background-image: url('https://www.seoclerk.com/pics/416059-1SmGRb1450526778.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.profile-picture-background:hover{
+    transform:  scale(1.07);
+    transition: 1s ease-out;
+}
+.colz .colz-icon i{
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+}
+.colz .colz-icon i :hover{
+    transform: scale(2.5);
+    transition: 1s ease-out;
+}
+@media screen and (max-width:1110px){
+    .profile-picture{
+        margin: 0 0px 0 80px;
+    }
+    .profile-detail-name{
+        font-size: 20px;
+    }
+    .profile-detail-role .primary-text{
+        font-size: 12px;
+    }
+    .profile-option .btn{
+        width: 120px;
+        padding: 11px;
+        z-index: 700
+    }
+}
+@media screen and (max-width:910px){
+    .profile-picture{
+        height: 320;
+        width: 320;
+        margin: 0 0 0 4px;
+    }
+}
+@media screen and (max-width:810px){
+    .profile-picture{
+        margin: 0 !important;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .profile-option{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-deatils{
+        margin: 25px 0 0;
+    }
+    .profile-option .highlighted-btn{
+        margin: 0 !important;
+    }
+    .profile-option, .profile-detail-role{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 375px){
+    .profile-picture{
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+    .profile-deatils{
+        width: 90%;
+    }
+}

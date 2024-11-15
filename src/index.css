@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.primary-btn{
+  color: white;
+  border: 2px solid linen;
+  font-size: 12px;
+  background-color: black;
+}
+.primary-btn:hover{
+  background-color: black;
+  border: 2px solid orange;
+color: aliceblue;
+}
+.btn{
+  border-radius: 50px;
+  padding: 14px;
+  width: 160px;
+  cursor: pointer;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn:active{
+  transform: translateY(2px);
+}
+.highlighted-btn{
+  color: white;
+  font-size: 14px;
+  background-color: orangered;
+}
+@media only screen and (max-width: 568px){
+  .highlighted-btn{
+    z-index: -900;
+  }
+}
