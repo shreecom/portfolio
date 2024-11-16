@@ -26,3 +26,26 @@ background-color:white;
     font-size: 20px;
     color:rgb(112, 7, 7);
 }
+@media screen and (max-width:1110px){
+    .inner{
+        flex-direction: column-reverse;
+    }
+    .about-container{
+        border-style: none;
+    }
+    .about-information{
+        width: 290px;   
+    }
+}
+
+    @media screen and (max-width:910px){
+        
+    }
+    
+    @media screen and (max-width:810px){
+       
+    }
+    
+    @media screen and (max-width: 375px){
+       
+    }

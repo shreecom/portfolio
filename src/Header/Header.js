@@ -7,7 +7,7 @@ const Header = () => {
                 <div className="nav">
                     <ul>
                         <li>Home</li>
-                        <li>About Me</li>
+                        <li>About</li>
                         <li>Skills</li>
                         <li>Contact</li>
                     </ul>
