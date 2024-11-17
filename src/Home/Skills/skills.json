@@ -1,34 +1,34 @@
 [
     {
         "title": "HTML",
-        "imageSrc": "html.png"
+        "imageSrc": "https://i.pinimg.com/564x/33/c1/bb/33c1bb4ab69357ed34328a11be4a5e4f.jpg"
     },
     {
         "title": "CSS",
-        "imageSrc": "css.png"
+        "imageSrc": "componet/css.png"
     },
     {
         "title": "JS",
-        "imageSrc": "js.png"
+        "imageSrc": "componet/js.png"
     },
     {
         "title": "React",
-        "imageSrc": "react.jpg"
+        "imageSrc": "componet/react.jpg"
     },
     {
         "title": "c",
-        "imageSrc": "cpro.png"
+        "imageSrc": "componet/cpro.png"
     },
     {
         "title": "Cpp",
-        "imageSrc": "cpp.jpg"
+        "imageSrc": "componet/cpp.jpg"
     },
     {
         "title": "Java",
-        "imageSrc": "java.jpg"
+        "imageSrc": "componet/java.jpg"
     },
     {
         "title": "gitHub",
-        "imageSrc": "github.png"
+        "imageSrc": "componet/github.png"
     }
 ]

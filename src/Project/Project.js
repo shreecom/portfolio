@@ -4,11 +4,11 @@ import './project.css';
 const Project = () => {
     return (
         <>
-            <div className="container1 projects my-3">
+            <div className="container1 projects my-3" id="project">
 
                 <h1>Project</h1>
 
-                <div className="container2 text-center">
+                <div className="container2 text-center" >
                     <div className="row" data-aos="zoom-in" data-aos-duration="1000">
                         <div className="col" >
                             <div className="card" >

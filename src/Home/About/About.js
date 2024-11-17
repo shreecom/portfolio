@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
     
-    <div className='about-container'>
+    <div className='about-container' id='about'>
     <h2>About Me</h2>
     <div className='inner' >   
       <div className='about-information' data-aos="fade-right" data-aos-duration="1000">

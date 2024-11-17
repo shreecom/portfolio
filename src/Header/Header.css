@@ -8,13 +8,16 @@
     gap: 20px;
     padding: 10px;
 }
-.header-con .nav ul li{
+.header-con .nav ul li {
     list-style-type: none;
-    color:aqua;
     border-bottom: 1px solid teal;
     padding: 10px;
 }
-.header-con .nav ul li:hover{
+.header-con .nav ul li a{
+    text-decoration: none;
+    color:aqua;
+}
+.header-con .nav ul li a:hover{
     color: seashell;
     cursor: pointer;
 }

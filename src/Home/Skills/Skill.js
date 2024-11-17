@@ -7,7 +7,7 @@ const Skill =()=>{
     return(
         <>
             
-            <div className="container skills">
+            <div className="container skills" id="skills">
                 <h1>Skills</h1>
 
                 <div className="items" >
