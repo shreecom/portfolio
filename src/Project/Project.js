@@ -9,7 +9,7 @@ const Project = () => {
                 <h1>Project</h1>
 
                 <div className="container2 text-center" >
-                    <div className="row" data-aos="zoom-in" data-aos-duration="1000">
+                    <div className="row" data-aos="fade-right" data-aos-duration="2000">
                         <div className="col" >
                             <div className="card" >
                                 <img src="componet\hs2.jpg" className="card-img-top" alt="..." />
