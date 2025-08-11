@@ -45,6 +45,8 @@ export default function Profile() {
                                                 5000,
                                                 "React Developer",
                                                 5000,
+                                                "UI Developer",
+                                                5000,
                                             ]
                                         }
                                     />

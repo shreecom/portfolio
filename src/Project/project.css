@@ -10,12 +10,33 @@
 .container2 .card{
     width: 300px;
     margin: auto;
-    box-shadow: rgba(110, 61, 5, 0.35) 10px 15px 15px;
 }
-.container2 .card img{
-    height: 200px;
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
 }
-
+.card{
+    background-color:rgb(231, 241, 192);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    height: 270px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+}
+h5{
+    color:rgb(10, 10, 100);
+    font-weight: bold;
+    text-align: center;
+    margin-top: auto;
+}
 @media screen and (max-width:1110px){
    .col{
     margin: 10px;

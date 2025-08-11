@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 import './App.css';
 import Home from './Home/Home';
 import './Home/Home.css';
-import  Aos from 'aos';
-import "aos/dist/aos.css";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
   useEffect(()=>{
