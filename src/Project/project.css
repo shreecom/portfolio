@@ -20,7 +20,7 @@
     padding: 20px;
 }
 .card{
-    background-color:rgb(231, 241, 192);
+    background:rgb(red, green, blue);
     border-radius: 10px;
     padding: 20px;
     text-align: center;

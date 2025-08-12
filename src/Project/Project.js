@@ -1,6 +1,7 @@
 /*eslint-disable*/
 import React from "react";
 import './project.css';
+
 const Project = () => {
     return (
         <>
@@ -16,7 +17,7 @@ const Project = () => {
                             <div className="card" >
                                 <h5>Web Portal On shree Computers Academy</h5><hr />
                                 <div className="card-body">
-                                    <p className="card-text">Front End : HTML5 , CSS3, JavaScript , Bootstrap </p>
+                                                   <p className="card-text">Front End : HTML5 , CSS3, JavaScript , Bootstrap </p>
                                     <p className="card-text">Back End : PHP, MySQL Server</p>
 
                                 </div>
