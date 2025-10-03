@@ -17,7 +17,7 @@
     gap: 40px;
     justify-content: center;
     margin: 30px;
-    padding: 20px;
+    padding: 10px;
 }
 .card{
     background:rgb(red, green, blue);
@@ -38,10 +38,16 @@ h5{
     margin-top: auto;
 }
 @media screen and (max-width:1110px){
-   .col{
-    margin: 10px;
+   
+    .row{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 25px;
+        justify-content: center;
+        margin: 30px;
+        padding: 20px;
+    }
    }
-}
 
     @media screen and (max-width:910px){
         

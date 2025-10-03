@@ -2,6 +2,7 @@
 import React from 'react';
 import Typical from 'react-typical';
 import "./Profile.css";
+import webImage from '../asset/web.png';
 export default function Profile() {
     return (
         <>
@@ -59,13 +60,13 @@ export default function Profile() {
 
                         <div className='profile-option'>
                             <button className='btn primary-btn'>{""} Hire Me {" "}</button>
-                            <a href='newResume.pdf' download={'HarshadaSPatil.pdf'}>
+                            <a href='newResume.pdf' download={'newResume.pdf'}>
                                 <button className='btn highlighted-btn'>get resume</button>
                             </a>
                         </div>
                         </div>
                         <div className='profile-picture'>
-                            <div className='profile-picture-background'>
+                            <div className='profile-picture-background' style={{backgroundImage: `url(${webImage})`}}>
 
                             </div>
                         </div>

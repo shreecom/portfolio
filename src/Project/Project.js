@@ -11,9 +11,7 @@ const Project = () => {
                 <p>Here are some of the projects I have worked on:</p>
                 <div className="container2 text-center" >
                     <div className="row" data-aos="fade-right" data-aos-duration="2000">
-
-
-                        <div className="col" >
+                       <div className="col" >
                             <div className="card" >
                                 <h5>Web Portal On shree Computers Academy</h5><hr />
                                 <div className="card-body">

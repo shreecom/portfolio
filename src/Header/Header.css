@@ -1,6 +1,5 @@
 .header-con{
     background-color:rgb(51, 41, 41);
-    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     align-items: center;
@@ -24,8 +23,10 @@
 }
 
 @media screen and (max-width:1110px){
-    .header-con{
-        font-size: 9px;
+    .header-con .nav ul li a{
+        text-decoration: none;
+        color:aqua;
+        font-size: 19px;
     }
 }
 
