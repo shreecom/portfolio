@@ -1,7 +1,6 @@
 /* eslint-disable*/
 import React from 'react';
 import Profile from './Profile';
-import Footer from './Footer/Footer';
 import About from './About/About';
 import Skill from './Skills/Skill';
 import Project from '../Project/Project';
@@ -14,7 +13,6 @@ export default function Home() {
     <div className='home-container' id='Home'>
       <Header/>
        <Profile/>
-      <Footer/>
       <About />
       <Skill/>
       <Project/>

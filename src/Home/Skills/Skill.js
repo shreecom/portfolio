@@ -13,8 +13,8 @@ const Skill =()=>{
                 <div className="items" >
                 {skills.map((data)=>(
                     <>
-                        
-                            <div className="item" key={data.id} data-aos="flip-left" data-aos-duration="1000">
+                    <div className="item" key={data.id}>
+                            {/* <div className="item" key={data.id} data-aos="flip-left" data-aos-duration="1000"> */}
                                 <img src={data.imageSrc} />
                                 <h3>{data.title}</h3>
                             </div>

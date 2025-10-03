@@ -1,7 +1,6 @@
 .about-container {
     background-color: white;
 }
-
 .inner {
     display: flex;
     gap: 100px;
@@ -12,6 +11,7 @@
 .about-container h2 {
     text-align: center;
     color: orangered;
+    margin-top: 40px;
 }
 
 .about-information {
