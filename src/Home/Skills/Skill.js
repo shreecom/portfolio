@@ -5,8 +5,7 @@ import './skill.css';
 
 const Skill =()=>{
     return(
-        <>
-            
+        <>        
             <div className="container skills" id="skills">
                 <h1>Skills</h1>
 
@@ -18,7 +17,6 @@ const Skill =()=>{
                                 <img src={data.imageSrc} />
                                 <h3>{data.title}</h3>
                             </div>
-                        
                     </>
                 ))}
                 </div>

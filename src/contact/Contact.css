@@ -1,16 +1,20 @@
+#contact{
+    color: aliceblue;
+    padding: 20px;
+}
+#contact h1{
+    margin-left: 30px;    
+    color: orange;
+}
 .contact-icon{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
-}
-.container{
-    color: white;
-}
+} 
 .contact-icon .item{
     margin: 10px;
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,4 +27,4 @@
 }
 .contact-icon .item .icons{
     font-size: 2rem;
-}
+} 

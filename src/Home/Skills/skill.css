@@ -34,8 +34,20 @@
 
 
 @media screen and (max-width:1110px) {
+    .skills {
+        color: white;
+        margin-top: 30px;
+       }
+    
+    .skills .items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
     .skills .items .item {
-        width: 200px;
+        width: 150px;
         margin: 30px;
         text-align: center;
         padding: 20px;

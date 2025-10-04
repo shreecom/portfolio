@@ -51,8 +51,101 @@
     }
 }
 
-@media screen and (max-width:910px) {}
+@media screen and (max-width:910px) {
+    .inner {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin: 30px;
+        justify-content: center;
+        align-items: center;
+    }
 
-@media screen and (max-width:810px) {}
+    .about-container {
+        border-style: none;
+    }
 
-@media screen and (max-width: 375px) {}
+    .about-information {
+        margin: 20px;
+        width: 350px;
+        text-transform: capitalize;
+    }
+
+    .about-information p {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+    .keyHighlight li {
+        line-height: 30px;
+        font-size: 18px;
+        color: darkred;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .inner {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-container {
+        border-style: none;
+    }
+
+    .about-information {
+        margin: 10px;
+        width: 300px;
+        text-transform: capitalize;
+    }
+
+    .about-information p {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    .keyHighlight li {
+        line-height: 25px;
+        font-size: 16px;
+        color: darkred;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .inner {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-container {
+        border-style: none;
+    }
+
+    .about-information {
+        margin: 10px;
+        width: 300px;
+        text-transform: capitalize;
+    }
+
+    .about-information p {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+    .keyHighlight li {
+        line-height: 25px;
+        font-size: 16px;
+        color: darkred;
+    }
+}

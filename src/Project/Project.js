@@ -28,7 +28,7 @@ const Project = () => {
                                 <h5>Ecommerce Website</h5><hr />
                                 <div className="card-body">
                                     <p className="card-text">Front End : HTML5 , CSS3, JavaScript , Bootstrap, React, Redux ,Routers ,API </p>
-                                    <p className="card-text">Back End : PHP, MySQL Server</p>
+        
                                 </div>
                             </div>
                         </div>
@@ -39,8 +39,6 @@ const Project = () => {
                                 <h5>Social Netwoking Site</h5><hr />
                                 <div className="card-body">
                                     <p className="card-text">Front End :HTML5 , CSS3, React, Material UI,</p>
-                                    <p className="card-text">Back End : PHP, MySQL Server</p>
-
                                 </div>
                             </div>
                         </div>
