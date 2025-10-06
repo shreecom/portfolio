@@ -122,6 +122,18 @@
     }
 }
 @media screen and (max-width: 375px){
+    .profile-container{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 650px;
+        min-height: fit-content;
+        
+    }
+    .profile-detail-role h1{
+        font-size: 40px;
+    }
     .profile-picture{
         height: 275px;
         width: 275px;
@@ -129,5 +141,48 @@
     }
     .profile-deatils{
         width: 90%;
+    }
+    .profile-option{
+        display: flex;
+        flex-direction:row;
+        gap: 2px;
+        align-items: center;
+        margin: 20px;
+    }
+    .highlighed-text{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 768px){
+    .profile-container{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 700px;
+        min-height: fit-content;
+        
+    }
+    .profile-detail-role h1{
+        font-size: 35px;
+    }
+    .profile-picture{
+        height: 250px;
+        width: 250px;
+        margin-top: -90px;
+    }
+    .profile-deatils{
+        width: 90%;
+    }
+    .profile-option{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        gap: 12px;
+        align-items: center;
+        
+    }
+    .highlighed-text{
+        font-size: 20px;
     }
 }

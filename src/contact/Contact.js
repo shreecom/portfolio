@@ -10,8 +10,8 @@ const Contact =()=>{
         <>
             <div id="contact">
                 <h1> Contact Me</h1>
-                <div className="contact-icon">
-            {/* <div className="contact-icon" data-aos="fade-down-right" data-aos-duration="1000"> */}
+                <div className="contact-icon"> 
+             {/* <div className="contact-icon" data-aos="fade-down-right" data-aos-duration="1000">  */}
                     <a href="mailto:harshadaspatil1999@gmail.com" className="item">
                         <BiLogoGmail className="icons" />
                     </a>

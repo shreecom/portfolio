@@ -6,7 +6,8 @@ import webImage from '../asset/web.png';
 export default function Profile() {
     return (
         <>
-            <div className='profile-container' data-aos="fade-down" data-aos-duration="1000">
+            {/* <div className='profile-container' data-aos="fade-down" data-aos-duration="1000"> */}
+            <div className='profile-container'>
                 <div className='profile-parent'>
                     <div className='profile-deatils'>
                         <div className='colz'>
