@@ -30,7 +30,7 @@ export default function Profile() {
                         <div className='profile-detail-name'>
                             <span className='primary-text'>
                                 {" "}
-                                Hello, I am <h1 className='highlighed-text'> Harshada Shivaji Patil</h1>
+                                Hello, I am <br/><h1 className='highlighed-text'> Harshada Shivaji Patil</h1>
                             </span>
                         </div>
 
