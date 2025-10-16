@@ -28,8 +28,12 @@
 .primary-text{
     color: white;
 }
+.primary-text {
+    font-size: larger;
+}
 .highlighed-text{
     color: orange;
+    font-size:larger;
 }
 .profile-role-tagline{
     font-size: 19px;
@@ -71,6 +75,7 @@
     color: white;
     padding: 8px;
     padding-left: 0px;
+    font-size: 25px;
 }
 .colz .colz-icon i :hover{
     transform: scale(2.5);
@@ -90,6 +95,10 @@
         width: 120px;
         padding: 11px;
         z-index: 700
+    }
+    .highlighed-text{
+        color: orange;
+        font-size:larger;
     }
 }
 @media screen and (max-width:910px){
@@ -119,6 +128,14 @@
     }
     .profile-option, .profile-detail-role{
         text-align: center;
+    }
+    .profile-picture-background:hover{
+        transform:none;
+        transition:none;
+    }
+    .highlighed-text{
+        color: orange;
+        font-size:larger;
     }
 }
 @media screen and (max-width: 375px){
@@ -152,6 +169,14 @@
     .highlighed-text{
         font-size: 25px;
     }
+    .profile-picture-background:hover{
+        transform:none;
+        transition:none;
+    }
+    .highlighed-text{
+        color: orange;
+        font-size:larger;
+    }
 }
 @media screen and (max-width: 768px){
     .profile-container{
@@ -184,5 +209,13 @@
     }
     .highlighed-text{
         font-size: 20px;
+    }
+    .profile-picture-background:hover{
+        transform:none;
+        transition:none;
+    }
+    .highlighed-text{
+        color: orange;
+        font-size:larger;
     }
 }
