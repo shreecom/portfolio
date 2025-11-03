@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0c49cf10.css",
-    "main.js": "/portfolio/static/js/main.b712dc19.js",
-    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
-    "index.html": "/portfolio/index.html",
-    "main.0c49cf10.css.map": "/portfolio/static/css/main.0c49cf10.css.map",
-    "main.b712dc19.js.map": "/portfolio/static/js/main.b712dc19.js.map",
-    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/harshadapatil79/portfolio.git/static/css/main.0c49cf10.css",
+    "main.js": "/harshadapatil79/portfolio.git/static/js/main.5b0be44d.js",
+    "static/js/453.1407b060.chunk.js": "/harshadapatil79/portfolio.git/static/js/453.1407b060.chunk.js",
+    "index.html": "/harshadapatil79/portfolio.git/index.html",
+    "main.0c49cf10.css.map": "/harshadapatil79/portfolio.git/static/css/main.0c49cf10.css.map",
+    "main.5b0be44d.js.map": "/harshadapatil79/portfolio.git/static/js/main.5b0be44d.js.map",
+    "453.1407b060.chunk.js.map": "/harshadapatil79/portfolio.git/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c49cf10.css",
-    "static/js/main.b712dc19.js"
+    "static/js/main.5b0be44d.js"
   ]
 }
