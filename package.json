@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://shreecom.github.io/portfolio",
+  "homepage": "https://harshadapatil79.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
     "react-typical": "^0.1.3",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
+    "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
