@@ -1,5 +1,5 @@
 .header-con{
-    background-color:rgb(51, 41, 41);
+    background-color:white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     align-items: center;
@@ -16,17 +16,16 @@
 }
 .header-con .nav ul li a{
     text-decoration: none;
-    color:aqua;
+color: black;
 }
 .header-con .nav ul li a:hover{
-    color: seashell;
+    color:orangered;
     cursor: pointer;
 }
 
 @media screen and (max-width:1110px){
     .header-con .nav ul li a{
         text-decoration: none;
-        color:aqua;
     }
 }
 
@@ -41,3 +40,11 @@
     @media screen and (max-width: 375px){
        
     }
+    /* Small phones */
+@media (max-width: 360px) {}
+
+/* Standard Android phones */
+@media (max-width: 412px) {}
+
+/* Large phones / small tablets */
+@media (max-width: 480px) {}

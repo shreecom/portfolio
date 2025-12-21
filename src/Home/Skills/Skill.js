@@ -6,16 +6,16 @@ import './skill.css';
 const Skill =()=>{
     return(
         <>        
-            <div className="container skills" id="skills">
-                <h1>Skills</h1>
+            <div className="skills" id="skills">
+                <h1> TECHNICAL SKILLS</h1>
 
                 <div className="items" >
                 {skills.map((data)=>(
                     <>
                     {/* <div className="item" key={data.id}> */}
-                            <div className="item" key={data.id} data-aos="flip-left" data-aos-duration="1000"> 
+                            <div className="item" key={data.id}> 
                                 <img src={data.imageSrc} />
-                                <h3>{data.title}</h3>
+                                <h6>{data.title}</h6>
                             </div>
                     </>
                 ))}

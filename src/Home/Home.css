@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background:url("https://wallpapercave.com/wp/wp5057641.jpg");
 }
 @media screen and (max-width:1110px){
     .col{
