@@ -1,4 +1,7 @@
-
+.projects{
+    margin: 20px;
+    padding: 20px;
+}
  .projects h1{
     color: teal;
     text-align: center;
@@ -25,7 +28,7 @@ padding: 20px;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
 }
 .card{
     border-radius: 10px;
