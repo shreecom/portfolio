@@ -1,23 +1,18 @@
 .about-container {
     background-color: white;
 }
-.inner {
-    display: flex;
-    gap: 100px;
-    margin: 30px;
-    justify-content: center;
-}
 
-.about-container h2 {
+.about-container h1 {
     text-align: center;
-    color: orangered;
+    color: teal;
     margin-top: 40px;
 }
 
 .about-information {
     margin: 50px;
-    width: 550px;
+    padding: 0 30px 30px 30px;
     text-transform: capitalize;
+    align-items: center;
 }
 
 .about-information p {
@@ -26,12 +21,105 @@
     text-align: justify;
 }
 
-.keyHighlight li {
-    line-height: 40px;
-    font-size: 20px;
+/* .keyHighlight {
+    margin: 20px 0 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(rgb(203, 233, 235), white, pink);
+    padding: 10px;
+} */
+.educaionDetails{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+}
+.keyHighlight{
+    background-color:rgb(247, 228, 221);
+    width: 500px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 30%;
+    text-align: center;
+    padding: 20px;
+    
+}
+.keyHighlight h3 {
+    margin-left: 20px;
     color: darkred;
+   font-size: xx-large;
 }
 
+.keyHighlight li {
+    line-height: 45px;
+    font-size: 23px;
+    list-style-type: none;
+}
+
+.eduation {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+}
+
+.educationHead{
+    text-align: center;
+    align-content: center;
+    background-color:rgb(83, 6, 73);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    color: aliceblue;
+}
+.coursename{
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.schoolIcon{
+    height: 500px;
+    width: 500px;
+}
+.degree1{
+    font-size: large;
+    text-transform: capitalize;
+    line-height: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+    gap: 20px;
+    margin-top: 20px;
+}
+.degree2{
+    margin-top: 20px;
+background-color: lightpink;
+font-size: large;
+    text-transform: capitalize;
+    line-height: 30px;
+    text-align: center;
+    padding: 20px;
+    
+}
+.degree3{
+    margin-top: 20px;
+    background-color: rgb(154, 205, 247);
+font-size: large;
+    text-transform: capitalize;
+    line-height: 30px;
+    text-align: center;
+    padding: 20px;
+    }
+.degree4{
+    margin-top: 20px;
+    background-color: rgb(83, 250, 111);
+font-size: large;
+    text-transform: capitalize;
+    line-height: 30px;
+    text-align: center;
+    padding: 20px;
+    
+}
 @media screen and (max-width:1110px) {
     .inner {
         display: flex;
@@ -147,5 +235,101 @@
         line-height: 25px;
         font-size: 16px;
         color: darkred;
+    }
+    .eduation {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        align-items: center;
+    }
+    
+    .educationHead{
+        text-align: center;
+        align-content: center;
+        background-color:rgb(83, 6, 73);
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        color: aliceblue;
+    }
+    .coursename{
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+    }
+    .schoolIcon{
+        height: 500px;
+        width: 500px;
+    }
+    .degree1{
+        font-size: large;
+        text-transform: capitalize;
+        line-height: 30px;
+        text-align: center;
+        padding: 20px;
+        background-color: lightgray;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .degree2{
+        margin-top: 20px;
+    background-color: lightpink;
+    font-size: large;
+        text-transform: capitalize;
+        line-height: 30px;
+        text-align: center;
+        padding: 20px;
+        
+    }
+    .degree3{
+        margin-top: 20px;
+        background-color: rgb(154, 205, 247);
+    font-size: large;
+        text-transform: capitalize;
+        line-height: 30px;
+        text-align: center;
+        padding: 20px;
+        }
+    .degree4{
+        margin-top: 20px;
+        background-color: rgb(83, 250, 111);
+    font-size: large;
+        text-transform: capitalize;
+        line-height: 30px;
+        text-align: center;
+        padding: 20px;
+        
+    }
+}
+/* Small phones */
+@media (max-width: 360px) {}
+
+/* Standard Android phones */
+@media (max-width: 412px) {}
+
+/* Large phones / small tablets */
+@media (max-width: 480px) {
+    .eduation {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-items: center;
+    }
+    
+    .educationHead{
+        width: 150px;
+        height: 150px;
+    }
+    .coursename{
+        width: 230px;
+        font-size:small;
+    }
+    .schoolIcon{
+        height: 150px;
+        width: 150px;
+    }
+    .degree1, .degree2, .degree3, .degree4{
+        font-size: small;
+        padding: 10px;
+        line-height: 20px;
     }
 }

@@ -5,7 +5,7 @@
     justify-content: center;
     height: 500px;
     min-height: fit-content;
-    
+    background-color: black;
 }
 .profile-parent{
     display: flex;
@@ -45,8 +45,10 @@
 }
 .profile-option .highlighted-btn:hover{
     margin: 0 0 0 28px;
-    background-color: cornsilk;
-    color: black;
+    background-color:rgba(255, 68, 0, 0.829);
+    color: white;
+    transition: all 0.5s;
+
 }
 .profile-picture{
     display: flex;
@@ -218,4 +220,14 @@
         color: orange;
         font-size:larger;
     }
+}
+/* Small phones */
+@media (max-width: 360px) {}
+
+/* Standard Android phones */
+@media (max-width: 412px) {}
+
+/* Large phones / small tablets */
+@media (max-width: 480px) {
+    
 }

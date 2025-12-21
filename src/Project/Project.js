@@ -5,11 +5,11 @@ import './project.css';
 const Project = () => {
     return (
         <>
-            <div className="container1 projects my-3" id="project">
+            <div className="projects" id="project">
 
-                <h1>My Projects</h1>
+                <h1>MY PROJECT</h1>
                 <p>Here are some of the projects I have worked on:</p>
-                <div className="container2 text-center" >
+                <div className="container2" >
                 {/* <div className="row"> */}
                      <div className="row" data-aos="fade-right" data-aos-duration="2000"> 
                        <div className="col" >
@@ -62,7 +62,14 @@ const Project = () => {
                                 </div>
                             </div>
                         </div>
-
+                        <div className="col" >
+                            <div className="card" >
+                                <h5>ToDo List</h5><hr />
+                                <div className="card-body">
+                                    <p className="card-text">Front End : React , CSS3,usestate  </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

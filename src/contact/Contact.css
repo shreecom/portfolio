@@ -1,10 +1,11 @@
 #contact{
-    color: aliceblue;
     padding: 20px;
+    background-color: black;
 }
 #contact h1{
     margin-left: 30px;    
-    color: orange;
+    color: white;
+    text-align: center;
 }
 .contact-icon{
     display: flex;
@@ -18,12 +19,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:pink;
-    color: black;
+    background-color:orangered;
+    color:white;
     border-radius: 100px;
 }
 .contact-icon .item:hover{
-    background-color:rgb(142, 238, 238);
+    background-color:rgb(218, 67, 12);
+    transition:ease-in-out 0.3s;
+    transform: scale(1.1);
 }
 .contact-icon .item .icons{
     font-size: 2rem;

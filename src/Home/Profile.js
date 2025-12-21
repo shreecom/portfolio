@@ -3,14 +3,16 @@ import React from 'react';
 import Typical from 'react-typical';
 import "./Profile.css";
 import webImage from '../asset/web.png';
+import Header from '../Header/Header';
 export default function Profile() {
     return (
         <>
+        <Header/>
             {/* <div className='profile-container' data-aos="fade-down" data-aos-duration="1000"> */}
             <div className='profile-container'>
                 <div className='profile-parent'>
                     <div className='profile-deatils'>
-                        <div className='colz'>
+                        {/* <div className='colz'>
                             <div className='colz-icon'>
                                 <a href='#'>
                                     <i class="bi bi-linkedin"></i>
@@ -25,7 +27,7 @@ export default function Profile() {
                                     <i class="bi bi-envelope"></i>
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className='profile-detail-name'>
                             <span className='primary-text'>
@@ -35,6 +37,9 @@ export default function Profile() {
                         </div>
 
                         <div className='profile-detail-role'>
+                        <div className='profile-role-tagline'>
+                        <h1>Frontend / React Developer </h1>
+                        </div>
                             <span className='primary-text'>
                                 {" "}
                                 <h1>
@@ -54,21 +59,22 @@ export default function Profile() {
                                     />
                                 </h1>
                                 <span className='profile-role-tagline'>
-                                    knack of building application with front back end operation
-                                </span>
+                                “I build responsive web apps and explore AI-driven solutions.”
+                              </span>
                             </span>
                         </div>
 
                         <div className='profile-option'>
-                            <button className='btn primary-btn'>{""} Hire Me {" "}</button>
+                        <a href="tel:919922781801" className="item">
+                            <button className='btn highlighted-btn'>Contact Me</button>
+                         </a>
                             <a href='newResume.pdf' download={'newResume.pdf'}>
-                                <button className='btn highlighted-btn'>get resume</button>
+                                <button className='btn highlighted-btn'>Resume</button>
                             </a>
                         </div>
                         </div>
                         <div className='profile-picture'>
                             <div className='profile-picture-background' style={{backgroundImage: `url(${webImage})`}}>
-
                             </div>
                         </div>
                     </div>
