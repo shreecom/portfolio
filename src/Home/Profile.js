@@ -3,11 +3,10 @@ import React from 'react';
 import Typical from 'react-typical';
 import "./Profile.css";
 import webImage from '../asset/web.png';
-import Header from '../Header/Header';
 export default function Profile() {
     return (
         <>
-        <Header/>
+
             {/* <div className='profile-container' data-aos="fade-down" data-aos-duration="1000"> */}
             <div className='profile-container'>
                 <div className='profile-parent'>
@@ -68,7 +67,7 @@ export default function Profile() {
                         <a href="tel:919922781801" className="item">
                             <button className='btn highlighted-btn'>Contact Me</button>
                          </a>
-                            <a href='newResume.pdf' download={'newResume.pdf'}>
+                            <a href='newResume.pdf' download={'HARDHADA SHIVAJI PATIL.pdf'}>
                                 <button className='btn highlighted-btn'>Resume</button>
                             </a>
                         </div>

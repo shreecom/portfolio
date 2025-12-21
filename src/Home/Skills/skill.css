@@ -1,5 +1,5 @@
 .skills{
-     margin: 70px;
+      margin: 70px;
     padding: 20px;
     align-items: center;
     background-color:rgba(243, 237, 237, 0.438);
@@ -31,8 +31,7 @@
 }
 
 @media screen and (max-width:1110px) {
-    .skills {
-        color: white;
+    /* .skills {
         margin-top: 30px;
        }
     
@@ -50,7 +49,7 @@
         padding: 20px;
         border-radius: 10px;
         border: 2px solid #333;
-    }
+    } */
 }
 
 @media screen and (max-width:910px) {}
@@ -58,12 +57,22 @@
 @media screen and (max-width:810px) {}
 
 @media screen and (max-width: 375px) {
-    .skills .items .item {
+    .skills{
+        margin-top: 30px;
+               padding: 0%;
+               color: black;
+    }
+    /* .skills .items .item {
         width: 200px;
         margin: 30px;
         text-align: center;
         padding: 20px;
         border-radius: 10px;
         border: 2px solid #333;
+    } */
+    .items img{
+        width: 100%;
+        height: 150px;
     }
+    
 }
