@@ -59,20 +59,24 @@
 @media screen and (max-width: 375px) {
     .skills{
         margin-top: 30px;
-               padding: 0%;
+               padding-top: 10px;
                color: black;
+               width: 100%;
     }
-    /* .skills .items .item {
-        width: 200px;
-        margin: 30px;
+    .skills .items .item {
+        width: 150px;
+        height: 150px;
         text-align: center;
         padding: 20px;
         border-radius: 10px;
         border: 2px solid #333;
-    } */
+    }
+     .items{
+        align-items: center;
+     }
     .items img{
         width: 100%;
-        height: 150px;
+        height: 100px;
     }
     
 }
