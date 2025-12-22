@@ -3,7 +3,6 @@
     padding: 40px 20px;
     text-align: center;
     margin-top: 20px;
-    background-color: #e3eeec;
   }
   
   .skills h1 {
@@ -24,7 +23,7 @@
   }
   
   .item {
-    background: #ffffff;
+    
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease;

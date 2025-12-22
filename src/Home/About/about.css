@@ -239,7 +239,10 @@
         line-height: 25px;
         text-align: justify;
     }
-
+    .keyHighlight
+    {
+        width: 100%;
+    }
     .keyHighlight li {
         line-height: 25px;
         font-size: 16px;
