@@ -1,4 +1,4 @@
-.projects{
+/* .projects{
     margin: 20px;
     padding: 20px;
 }
@@ -23,7 +23,7 @@ padding: 20px;
     width: 290px;
     margin: auto;
 } */
-.row{
+/* .row{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     justify-content: center;
@@ -72,8 +72,113 @@ h5{
         
         .row{
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
             gap: 10px;
             justify-content: center;
         }
-    } 
+    }   */
+
+    /* ===== Projects Section ===== */
+.projects {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .projects h1 {
+    margin-bottom: 10px;
+    color: teal;
+  }
+  
+  .projects p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+  
+  /* ===== Container ===== */
+  .container2 {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* ===== Grid Layout ===== */
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+  }
+  
+  /* ===== Card ===== */
+  .col {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 1px 2px orangered;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(99, 102, 241, 0.4);
+  }
+  
+  .card h5 {
+    font-size: 1.1rem;
+    margin-bottom: 10px
+  }
+  
+  .card hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, #6366f1, #22d3ee);
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    
+    line-height: 1.6;
+  }
+  
+  /* ===== Tablet (<= 992px) ===== */
+  @media (max-width: 992px) {
+    .row {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .projects h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  /* ===== Mobile (<= 576px) ===== */
+  @media (max-width: 576px) {
+    .row {
+      grid-template-columns: 1fr;
+    }
+  
+    .projects {
+      padding: 40px 15px;
+    }
+  
+    .projects h1 {
+      font-size: 1.8rem;
+    }
+  
+    .card {
+      padding: 18px;
+    }
+  
+    .card h5 {
+      font-size: 1rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  }
+  

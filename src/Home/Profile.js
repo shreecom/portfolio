@@ -11,24 +11,7 @@ export default function Profile() {
             <div className='profile-container'>
                 <div className='profile-parent'>
                     <div className='profile-deatils'>
-                        {/* <div className='colz'>
-                            <div className='colz-icon'>
-                                <a href='#'>
-                                    <i class="bi bi-linkedin"></i>
-                                </a>
-                                <a href='#'>
-                                    <i class="bi bi-whatsapp"></i>
-                                </a>
-                                <a href='#'>
-                                    <i class="bi bi-instagram"></i>
-                                </a>
-                                <a href='#'>
-                                    <i class="bi bi-envelope"></i>
-                                </a>
-                            </div>
-                        </div> */}
-
-                        <div className='profile-detail-name'>
+                                    <div className='profile-detail-name'>
                             <span className='primary-text'>
                                 {" "}
                                 Hello, I am <br/><h1 className='highlighed-text'> Harshada Shivaji Patil</h1>
@@ -67,7 +50,7 @@ export default function Profile() {
                         <a href="tel:919922781801" className="item">
                             <button className='btn highlighted-btn'>Contact Me</button>
                          </a>
-                            <a href='newResume.pdf' download={'HARDHADA SHIVAJI PATIL.pdf'}>
+                            <a href='/Harshada.pdf' download={'Harshada.pdf'} target='_blank'>
                                 <button className='btn highlighted-btn'>Resume</button>
                             </a>
                         </div>
