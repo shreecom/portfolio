@@ -50,7 +50,7 @@ export default function Profile() {
                         <a href="tel:919922781801" className="item">
                             <button className='btn highlighted-btn'>Contact Me</button>
                          </a>
-                            <a href='/Harshada.pdf' download={'Harshada.pdf'} target='_blank'>
+                            <a href='Harshada.pdf' download={'Harshada.pdf'} target='_blank'>
                                 <button className='btn highlighted-btn'>Resume</button>
                             </a>
                         </div>
