@@ -20,7 +20,7 @@ const Project = () => {
                             <div className="card" >
                                 <h5>Web Portal On Educational Institute</h5><hr />
                                 <div className="card-body">
-                                <HomeWorkIcon className="projectIcon"/>
+                                <HomeWorkIcon style={{fontSize:60}} className="projectIcon"/>
                                                    <p className="card-text">Front End : HTML5 , CSS3, JavaScript , Bootstrap </p>
                                     <p className="card-text">Back End : PHP, MySQL Server</p>
 
@@ -32,7 +32,7 @@ const Project = () => {
                             <div className="card" >
                                 <h5>Ecommerce Website</h5><hr />
                                 <div className="card-body">
-                                <ShoppingCartIcon className="projectIcon"/>
+                                <ShoppingCartIcon className="projectIcon" style={{fontSize:60}}/>
                                     <p className="card-text">Front End : HTML5 , CSS3, JavaScript , Bootstrap, React, Redux ,Routers ,API </p>
         
                                 </div>
@@ -43,7 +43,7 @@ const Project = () => {
                             <div className="card" >
                                 <h5>Social Netwoking Site</h5><hr/>
                                 <div className="card-body">
-                                <GroupsIcon className="projectIcon"/>
+                                <GroupsIcon className="projectIcon" style={{fontSize:60}}/>
                                     <p className="card-text">Front End :HTML5 , CSS3, React, Material UI,</p>
                                 </div>
                             </div>
@@ -52,7 +52,7 @@ const Project = () => {
                             <div className="card" >
                                 <h5>Job Seeker Portal</h5><hr />
                                 <div className="card-body">
-                                <WorkIcon className="projectIcon"/>
+                                <WorkIcon className="projectIcon" style={{fontSize:60}}/>
                                     <p className="card-text">Front End : HTML5 , CSS3, JavaScript , Bootstrap </p>
                                 </div>
                             </div>
@@ -61,7 +61,7 @@ const Project = () => {
                             <div className="card" >
                                 <h5>ToDo List</h5><hr />
                                 <div className="card-body">
-                                <EditNoteIcon className="projectIcon"/>
+                                <EditNoteIcon className="projectIcon" style={{fontSize:60}}/>
                                     <p className="card-text">Front End : React ,usestate,Tailwind CSS </p>
                                 </div>
                             </div>
