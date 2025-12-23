@@ -1,7 +1,11 @@
 /*eslint-disable*/
 import React from "react";
 import './project.css';
-
+import HomeWorkIcon from '@mui/icons-material/HomeWork';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import GroupsIcon from '@mui/icons-material/Groups';
+import WorkIcon from '@mui/icons-material/Work';
+import EditNoteIcon from '@mui/icons-material/EditNote';
 const Project = () => {
     return (
         <>
@@ -14,8 +18,9 @@ const Project = () => {
                      <div className="row" data-aos="fade-right" data-aos-duration="2000"> 
                        <div className="col" >
                             <div className="card" >
-                                <h5>Web Portal On shree Computers Academy</h5><hr />
+                                <h5>Web Portal On Educational Institute</h5><hr />
                                 <div className="card-body">
+                                <HomeWorkIcon className="projectIcon"/>
                                                    <p className="card-text">Front End : HTML5 , CSS3, JavaScript , Bootstrap </p>
                                     <p className="card-text">Back End : PHP, MySQL Server</p>
 
@@ -27,37 +32,27 @@ const Project = () => {
                             <div className="card" >
                                 <h5>Ecommerce Website</h5><hr />
                                 <div className="card-body">
+                                <ShoppingCartIcon className="projectIcon"/>
                                     <p className="card-text">Front End : HTML5 , CSS3, JavaScript , Bootstrap, React, Redux ,Routers ,API </p>
         
                                 </div>
                             </div>
                         </div>
 
-
-                        <div className="col" >
+                       <div className="col" >
                             <div className="card" >
-                                <h5>Social Netwoking Site</h5><hr />
+                                <h5>Social Netwoking Site</h5><hr/>
                                 <div className="card-body">
+                                <GroupsIcon className="projectIcon"/>
                                     <p className="card-text">Front End :HTML5 , CSS3, React, Material UI,</p>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="col" >
-                            <div className="card" >
-                                <h5>Hospital Management System</h5>
-                                <hr />
-                                <div className="card-body">
-                                    <p className="card-text">Front End : c# </p>
-                                    <p className="card-text">Back End : Sql server</p>
-                                </div>
-                            </div>
-                        </div>
-
                         <div className="col" >
                             <div className="card" >
                                 <h5>Job Seeker Portal</h5><hr />
                                 <div className="card-body">
+                                <WorkIcon className="projectIcon"/>
                                     <p className="card-text">Front End : HTML5 , CSS3, JavaScript , Bootstrap </p>
                                 </div>
                             </div>
@@ -66,7 +61,8 @@ const Project = () => {
                             <div className="card" >
                                 <h5>ToDo List</h5><hr />
                                 <div className="card-body">
-                                    <p className="card-text">Front End : React , CSS3,usestate  </p>
+                                <EditNoteIcon className="projectIcon"/>
+                                    <p className="card-text">Front End : React ,usestate,Tailwind CSS </p>
                                 </div>
                             </div>
                         </div>

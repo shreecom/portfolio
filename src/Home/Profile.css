@@ -80,7 +80,7 @@
   }
   
   .highlighted-btn:hover {
-    background-color: orangered;
+    background-color: orange;
     color: white;
     transition: 0.3s ease;
   }

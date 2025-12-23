@@ -69,8 +69,8 @@
     font-size: 16px;
   }
   
-  .degree1 { background: lightgray; }
-  .degree2 { background: lightpink; }
+  .degree1 { background: rgb(247, 247, 126); }
+  .degree2 { background: rgb(245, 237, 166); }
   .degree3 { background: rgb(154, 205, 247); }
   .degree4 { background: rgb(83, 250, 111); }
   
