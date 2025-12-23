@@ -1,69 +1,74 @@
-.skills{
-     margin: 70px;
-    padding: 20px;
-    align-items: center;
-    background-color:rgba(243, 237, 237, 0.438);
-}
-.skills h1{
+
+.skills {
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(245, 252, 248);
+  }
+  
+  .skills h1 {
     color: teal;
     text-align: center;
+    margin-bottom: 30px;
 }
-.items{
-    display: flex;
-    flex-direction: row;
-    margin: 30px;
+  
+  /* Grid layout */
+  .items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
     align-items: center;
 
-}
-.items .item{
-    text-align: center;
-    border: 1px solid #e7d7d7;
-}
-.items img{
+  }
+  
+  .item {
+    
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+  }
+  
+  .item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .item img {
     width: 100%;
-    height: 150px;
-}
-.items .item h6{
-    margin-top: 10px;
-}
-
-@media screen and (max-width:1110px) {
-    .skills {
-        color: white;
-        margin-top: 30px;
-       }
+    height: 130px;
+    object-fit:contain;
+    margin-bottom: 10px;
+  }
+  
+  .item h6 {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  /* 📱 Mobile (Android / small devices) */
+  @media (max-width: 480px) {
     
-    .skills .items {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
+    .item img {
+      width: 120px;
+      height: 100px;
     }
-    
-    .skills .items .item {
-        width: 150px;
-        margin: 30px;
-        text-align: center;
-        padding: 20px;
-        border-radius: 10px;
-        border: 2px solid #333;
+  
+    .item h6 {
+      font-size: 0.8rem;
     }
-}
-
-@media screen and (max-width:910px) {}
-
-@media screen and (max-width:810px) {}
-
-@media screen and (max-width: 375px) {
-    .skills .items .item {
-        width: 200px;
-        margin: 30px;
-        text-align: center;
-        padding: 20px;
-        border-radius: 10px;
-        border: 2px solid #333;
+  }
+  
+  /* 📱 Tablet */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .skills h1 {
+      font-size: 1.8rem;
     }
-}
+  
+    .items {
+      gap: 16px;
+    }
+  }
+  
+  
+  
