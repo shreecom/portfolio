@@ -21,10 +21,10 @@ export default function About() {
             <div className='eduation' data-aos="fade-up" data-aos-duration="1000">
               <div className='educationHead'><h3>Education</h3> <SchoolIcon style={{ fontSize: 50 }} /></div>
               <div>
-                <div className='degree1  coursename'>MCA from IGNOU (Pune)</div>
-                <div className='degree2 coursename'>BCA from North Maharashtra University</div>
-                <div className='degree3 coursename'>HSC from Maharashtra State Board </div>
-                <div className='degree4 coursename'>SSC from Maharashtra State Board </div>
+                <div className='degree1  coursename'>MCA </div>
+                <div className='degree2 coursename'>BCA</div>
+                <div className='degree3 coursename'>HSC </div>
+                <div className='degree4 coursename'>SSC</div>
               </div>
             </div>
           </eduation>
