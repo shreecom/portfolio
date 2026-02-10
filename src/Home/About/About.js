@@ -21,10 +21,8 @@ export default function About() {
             <div className='eduation' data-aos="fade-up" data-aos-duration="1000">
               <div className='educationHead'><h3>Education</h3> <SchoolIcon style={{ fontSize: 50 }} /></div>
               <div>
-                <div className='degree1  coursename'>MCA </div>
-                <div className='degree2 coursename'>BCA</div>
-                <div className='degree3 coursename'>HSC </div>
-                <div className='degree4 coursename'>SSC</div>
+                <div className='coursename'>MCA (Master of Computer Applications) </div>
+                <div className='coursename'>BCA (Bachelor of Computer Applications)</div>
               </div>
             </div>
           </eduation>
@@ -32,7 +30,6 @@ export default function About() {
             <h3>key Highlights</h3>
             <ul>
               <li>Full stack web development</li>
-              <li>inetractive front end as per design</li>
               <li>Managing databases</li>
               <li>Colaboration  & comminication skills</li>
               <li>Continuous learning mindset</li>

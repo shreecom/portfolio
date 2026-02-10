@@ -47,10 +47,9 @@ export default function Profile() {
                         </div>
 
                         <div className='profile-option'>
-                        <a href="tel:919922781801" className="item">
-                            <button className='btn highlighted-btn'>Contact Me</button>
-                         </a>
-                            <a href='Harshada.pdf' download={'Harshada.pdf'} target='_blank'>
+                            <a href={`${process.env.PUBLIC_URL}/Harshada.pdf`}
+  target="_blank"
+  rel="noopener noreferrer">
                                 <button className='btn highlighted-btn'>Resume</button>
                             </a>
                         </div>
@@ -60,8 +59,7 @@ export default function Profile() {
                             </div>
                         </div>
                     </div>
-                </div>
-           
+                </div>       
         </>
     )
 }
