@@ -8,9 +8,9 @@ import { FaLinkedin } from "react-icons/fa";
 const Contact =()=>{
     return(
         <>
-            <div id="contact" data-aos="fade-right "data-aos-duration="1000">
+            <div id="contact" data-aos="fade-left" data-aos-duration="1000">
 >
-                <h1> CONTACT ME</h1>
+                <h3> CONTACT ME</h3>
                 <div className="contact-icon" > 
                     <a href="mailto:harshadaspatil1999@gmail.com" className="item">
                         <BiLogoGmail className="icons" />

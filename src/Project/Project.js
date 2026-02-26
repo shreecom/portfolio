@@ -11,7 +11,7 @@ const Project = () => {
         <>
             <div className="projects" id="project">
 
-                <h1>MY PROJECT</h1>
+                <h3>MY PROJECT</h3>
                 <p>Here are some of the projects I have worked on:</p>
                 <div className="container2" >
                 {/* <div className="row"> */}

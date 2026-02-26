@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
   }
   body {
@@ -10,7 +10,7 @@
     background-color: #ffffff;
     padding: 50px 20px;
   }
-    .about-container h1 {
+    .about-container h3 {
     text-align: center;
     color: rgb(138, 19, 98);
     margin-bottom: 40px;
@@ -47,7 +47,11 @@
     padding: 20px;
      border-radius: 10px;
   }
-  
+  .eduation h4{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
   .educationHead {
       color: white;
     justify-content: center;
@@ -82,8 +86,148 @@
     list-style: none;
     font-size: 18px;
     line-height: 32px;
+  } */
+  
+  .about-container {
+    padding: 60px 20px;
+    background: #f9fafc;
   }
   
+  .about-container h3 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color:rgb(128, 5, 87);
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .inner {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+
+  .about-information {
+    flex: 1 1 500px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  }
+  
+  .about-information p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  /* Education and highlights container */
+  .educaionDetails {
+    flex: 1 1 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  /* Education card */
+  .eduation {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  }
+  
+  .educationHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .educationHead h4 {
+    font-size: 22px;
+    color: #0d47a1;
+    font-weight: 600;
+  }
+  
+  .coursename {
+    font-size: 16px;
+    color: #333;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .coursename:last-child {
+    border-bottom: none;
+  }
+  
+  /* Key Highlights */
+  .keyHighlight {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  }
+  
+  .keyHighlight h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #0d47a1;
+    text-align: left;
+  }
+  
+  .keyHighlight ul {
+    padding-left: 20px;
+  }
+  
+  .keyHighlight li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #444;
+  }
+  .about-information:hover,
+  .eduation:hover,
+  .keyHighlight:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+  }
+  
+  /* Responsive */
+  @media (max-width: 992px) {
+    .inner {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .about-container h3 {
+      font-size: 26px;
+    }
+  
+    .about-information,
+    .eduation,
+    .keyHighlight {
+      padding: 18px;
+    }
+  
+    .educationHead h4,
+    .keyHighlight h3 {
+      font-size: 20px;
+    }
+  
+    .about-information p,
+    .coursename,
+    .keyHighlight li {
+      font-size: 15px;
+    }
+  }
   /* Tablets */
   @media (max-width: 992px) {
     .about-information p {

@@ -6,8 +6,8 @@ import './skill.css';
 const Skill =()=>{
     return(
         <>        
-            <div className="skills" id="skills">
-                <h1> TECHNICAL SKILLS</h1>
+            <div className="skills" id="skills" data-aos="fade-left" data-aos-duration="5000">
+                <h3> TECHNICAL SKILLS</h3>
 
                 <div className="items" >
                 {skills.map((data)=>(

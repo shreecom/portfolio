@@ -84,9 +84,13 @@ h5{
     text-align: center;
   }
   
-  .projects h1 {
-    margin-bottom: 10px;
-    color:rgb(116, 5, 60);
+  .projects h3 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color:rgb(128, 5, 87);
+    font-weight: 700;
+    letter-spacing: 1px;
   }
   
   .projects p {
@@ -117,7 +121,7 @@ h5{
     width: 100%;
     border-radius: 15px;
     padding: 20px;
-    box-shadow: 0 1px 2px orangered;
+    box-shadow: 0 1px 2px rgb(128, 5, 87);;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   

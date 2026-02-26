@@ -1,4 +1,4 @@
-
+/* 
 .skills {
     padding: 40px 20px;
     text-align: center;
@@ -11,10 +11,10 @@
     color: rgb(128, 5, 87);
     text-align: center;
     margin-bottom: 30px;
-}
+} */
   
   /* Grid layout */
-  .items {
+  /* .items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
@@ -44,7 +44,7 @@
   .item h6 {
     font-size: 0.9rem;
     font-weight: 600;
-  }
+  } */
   
   /* 📱 Mobile (Android / small devices) */
   @media (max-width: 480px) {
@@ -70,5 +70,95 @@
     }
   }
   
-  
+ 
+  .skills {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  text-align: center;
+  color: #fff;
+}
+
+.skills h3 {
+  font-weight: 700;
+  margin-bottom: 50px;
+  background: linear-gradient(90deg, #f581bb, #e794ce);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+}
+
+/* Grid layout */
+.items {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 30px;
+}
+.item {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 25px 20px;
+  transition: all 0.35s ease;
+  border: 1px solid rgba(255,255,255,0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Glow effect */
+.item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent, rgba(27, 174, 184, 0.4), transparent);
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.item:hover::before {
+  opacity: 1;
+}
+
+.item:hover {
+  transform: translateY(-10px) scale(1.04);
+  box-shadow: 0 15px 35px rgba(145, 206, 235, 0.25);
+}
+
+/* Skill icon */
+.item img {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.item:hover img {
+  transform: rotate(8deg) scale(1.1);
+}
+
+/* Skill name */
+.item h6 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  color: #e2e8f0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .skills h1 {
+    font-size: 28px;
+  }
+
+  .item {
+    padding: 20px 15px;
+  }
+
+  .item img {
+    width: 55px;
+    height: 55px;
+  }
+}
   
