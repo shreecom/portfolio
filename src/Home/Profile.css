@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
+ 
   html, body {
     overflow-x: hidden;
     margin: 0;
@@ -15,7 +15,8 @@
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-    background-color: #fce9e9;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    box-shadow: 0 4px 15px rgba(75, 12, 12, 0.08);
   }
   .profile-parent {
     max-width: 1200px;
@@ -29,20 +30,18 @@
     flex: 1;
     text-align: left;
   }
-  
   .profile-detail-name {
     margin-bottom: 20px;
   }
-  
-  .primary-text {
+    .primary-text {
     font-size: 20px;
-  
+  color: rgb(188, 241, 144);
   }
-  
-  .highlighed-text {
-    color:rgb(128, 5, 87);
+    .highlighed-text {
+    color:rgb(120, 219, 219);
     font-size: 36px;
     margin: 5px 0;
+    font-family:cursive;
   }
   .profile-detail-role {
     margin: 20px 0;
@@ -51,11 +50,12 @@
   .profile-detail-role h1 {
     font-size: 32px;
     margin-bottom: 10px;
+    color: rgb(233, 224, 224);
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
-  .profile-role-tagline {
-    font-size: 16px;
-  
+  .profile-role-tagline h1{ 
+    color: rgb(225, 163, 250);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   .profile-option {
@@ -157,4 +157,71 @@
       font-size: 22px;
     }
   }
-  
+  .profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main image circle */
+.profile-picture-background {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* border and shadow */
+    border: 2px solid rgb(243, 213, 225);
+    box-shadow: 0 0 25px rgba(15, 36, 156, 0.6);
+
+    /* animation */
+    animation: floatAnimation 4s ease-in-out infinite,
+               glowAnimation 2s ease-in-out infinite alternate;
+
+    transition: transform 0.4s ease;
+}
+
+/* hover zoom */
+.profile-picture-background:hover {
+    transform: scale(1.08);
+}
+
+/* floating animation */
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* glowing animation */
+@keyframes glowAnimation {
+    from {
+        box-shadow: 0 0 20px rgba(201, 40, 152, 0.5);
+    }
+    to {
+        box-shadow: 0 0 40px rgb(31, 218, 224);
+    }
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .profile-picture-background {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-picture-background {
+        width: 150px;
+        height: 150px;
+    }
+}

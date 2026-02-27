@@ -1,36 +1,85 @@
-#contact{
-    padding: 20px;
-    background-color: rgb(235, 185, 218);
-}
-#contact h3{
+#contact {
+    padding: 20px 20px;
+    background: #0f172a;
     text-align: center;
+}
+
+/* heading with gradient text */
+#contact h3 {
     font-size: 32px;
-    margin-bottom: 20px;
-    color:rgb(128, 5, 87);
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #c25c75, #d4bad8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
 }
-.contact-icon{
+
+/* icon container */
+.contact-icon {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
-.contact-icon .item{
-    margin: 10px;
-    height: 65px;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+/* icon circle */
+.contact-icon .item {
     width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #1e293b;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(7, 91, 124);
+    text-decoration: none;
+
+    /* shadow */
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+
+    transition: all 0.4s ease;
+}
+
+/* icon style */
+.icons {
+    font-size: 30px;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+
+/* hover effect */
+.contact-icon .item:hover {
+    background: linear-gradient(135deg, #660456, #9c3694);
+    transform: translateY(-8px) scale(1.1);
+
+    box-shadow: 
+        0 0 20px rgba(192, 14, 118, 0.8),
+        0 0 40px rgba(26, 178, 216, 0.6);
+}
+
+.contact-icon .item:hover .icons {
     color:white;
-    border-radius: 100px;
 }
-.contact-icon .item:hover{
-    background-color:rgb(7, 91, 124);
-    transition:ease-in-out 0.3s;
-    transform: scale(1.1);
+
+/* responsive */
+@media (max-width: 768px) {
+    #contact h3 {
+        font-size: 26px;
+    }
+
+    .contact-icon .item {
+        width: 55px;
+        height: 55px;
+    }
+
+    .icons {
+        font-size: 24px;
+    }
 }
-.contact-icon .item .icons{
-    font-size:190px;
-} 
+
+@media (max-width: 480px) {
+    .contact-icon {
+        gap: 20px;
+    }
+}

@@ -6,7 +6,7 @@ import './skill.css';
 const Skill =()=>{
     return(
         <>        
-            <div className="skills" id="skills" data-aos="fade-left" data-aos-duration="5000">
+            <div className="skills" id="skills" data-aos="zoom-in" data-aos-duration="1300">
                 <h3> TECHNICAL SKILLS</h3>
 
                 <div className="items" >

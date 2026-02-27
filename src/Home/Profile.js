@@ -20,7 +20,7 @@ export default function Profile() {
 
                         <div className='profile-detail-role'>
                             <div className='profile-role-tagline'>
-                                <h1>Frontend / React Developer </h1>
+                                <h1>Software / React Developer </h1>
                             </div>
                             <span className='primary-text'>
                                 {" "}
@@ -30,9 +30,9 @@ export default function Profile() {
                                             [
                                                 "Enthusiastic Dev",
                                                 5000,
-                                                "Full stack Developer",
+                                                "Full stack Web Developer",
                                                 5000,
-                                                "React Developer",
+                                                "Modern Web Application Developer",
                                                 5000,
                                                 "UI Developer",
                                                 5000,
@@ -40,9 +40,9 @@ export default function Profile() {
                                         }
                                     />
                                 </h1>
-                                <span className='profile-role-tagline'>
+                                {/* <span className='profile-role-tagline'>
                                     “I build responsive web apps and explore AI-driven solutions.”
-                                </span>
+                                </span> */}
                             </span>
                         </div>
 
